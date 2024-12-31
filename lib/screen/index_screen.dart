@@ -90,7 +90,7 @@ class _IndexScreenState extends State<IndexScreen> {
       leading = const SizedBox(width: 90);
     }
     return DefaultTabController(
-      length: 3,
+      length: 2,
       child: Scaffold(
         appBar: AppBar(
           leading: leading,

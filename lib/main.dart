@@ -41,7 +41,8 @@ class MyApp extends StatelessWidget {
       ),
       translations: Messages(),
       //使用系统语言
-      locale: Get.deviceLocale,
+      // locale: Get.deviceLocale,
+      locale: const Locale('en', 'US'),
       fallbackLocale: const Locale('en', 'US'),
       debugShowCheckedModeBanner: false,
       home: const ResponsiveLayout(),

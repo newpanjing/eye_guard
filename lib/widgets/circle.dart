@@ -43,17 +43,23 @@ class _CircleSportState extends State<CircleSport> {
     return text;
   }
 
+  Timer? timer;
   @override
   void initState() {
     super.initState();
 
     //创建一个定时器1秒钟给time+1
-    Timer.periodic(const Duration(seconds: 1), (timer) {
+    timer=Timer.periodic(const Duration(seconds: 1), (timer) {
       if (isRuning) {
         time++;
         setState(() {});
       }
     });
+  }
+  @override
+  dispose() {
+    timer?.cancel();
+    super.dispose();
   }
 
   String getTimeString() {
@@ -66,10 +72,6 @@ class _CircleSportState extends State<CircleSport> {
 
   CircleGrid grid = CircleGrid();
 
-  @override
-  void dispose() {
-    super.dispose();
-  }
 
   @override
   Widget build(BuildContext context) {
