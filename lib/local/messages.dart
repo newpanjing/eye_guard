@@ -7,11 +7,30 @@ class Messages extends Translations {
           "title": "Eye Sport Guard",
           "Start": "Start",
           "Stop": "Stop",
+          "about_desc":"""
+Eye Guard is an APP for eye protection.
+
+The idea is to use small white circles to move, so that the eye can follow.
+
+This can effectively move the eyeball, so that the blood flow around the eye is more full, so as to relieve eye fatigue.
+
+The principle is shared by an eye hospital in China.
+
+Note: Software cannot fundamentally solve your eye problem, if you have eye discomfort, please seek medical attention as soon as possible.
+
+Email: newpanjing@icloud.com""",
         },
         "zh_CN": {
+          "About":"关于",
           "title": "眼睛卫士",
           "Start": "开始训练",
           "Stop": "停止训练",
+          "about_desc":"""护眼宝是一款护眼应用程序。
+其理念是利用小白圈移动，让眼睛能够跟随。
+这能够有效地转动眼球，使眼部周围的血液流动更充足，从而缓解眼睛疲劳。
+其原理由中国一家眼科医院提供。
+注意：软件无法从根本上解决你的眼部问题，如果你眼部不适，请尽快就医。
+邮箱：newpanjing@icloud.com"""
         },
         "zh_TW": {
           "title": "眼睛衛士",
