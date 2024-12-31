@@ -103,6 +103,7 @@ class _StopScreenState extends State<StopScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+
         backgroundColor: Color(0xff222222),
         title: Text("Stopping".tr,
             style: TextStyle(fontSize: 14, color: Colors.white)),
@@ -122,7 +123,6 @@ class _StopScreenState extends State<StopScreen> {
                   fit: BoxFit.cover,
                 ),
               ),
-              child: Text("123"),
             ),
             // 模糊效果
             Obx(() {

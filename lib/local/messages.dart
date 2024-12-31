@@ -21,6 +21,10 @@ Note: Software cannot fundamentally solve your eye problem, if you have eye disc
 Email: newpanjing@icloud.com""",
         },
         "zh_CN": {
+          "Give us a grade":"给我个评分",
+          "Support us":"支持我们",
+          "More Apps":"更多APP",
+          "Version":"版本号",
           "Stopping":"停下来，休息一下",
           "Start the clock":"开始计时",
           "Set the time to stop using":"设定时间，停止使用",

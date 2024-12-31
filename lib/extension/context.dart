@@ -11,7 +11,7 @@ extension ContextExtension on BuildContext {
     if (Get.width > 768) {
       RouterCtr.find().to(page);
     } else {
-      Get.to(() => page);
+      Get.to(page);
     }
   }
 }

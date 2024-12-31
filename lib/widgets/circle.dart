@@ -73,7 +73,18 @@ class _CircleSportState extends State<CircleSport> {
 
   @override
   Widget build(BuildContext context) {
+    AppBar? appBar;
+    if (context.width<786) {
+      appBar = AppBar(
+        backgroundColor: const Color(0xFF000003),
+        title: const Text(
+          "Eye Sport Guard",
+          style: TextStyle(fontSize: 14, color: Colors.white),
+        ),
+      );
+    }
     return Scaffold(
+      appBar: appBar,
       body: Container(
         // width: 200,
         // height: 200,

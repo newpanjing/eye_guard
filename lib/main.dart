@@ -24,6 +24,10 @@ class MyApp extends StatelessWidget {
         splashColor: Colors.transparent,
         splashFactory: NoSplash.splashFactory,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
+        //Appbar图标白色
+        appBarTheme: const AppBarTheme(
+          iconTheme: IconThemeData(color: Colors.white),
+        ),
       ),
       themeMode: ThemeMode.dark,
       darkTheme: ThemeData.dark(useMaterial3: true).copyWith(
@@ -31,6 +35,9 @@ class MyApp extends StatelessWidget {
         splashColor: Colors.transparent,
         splashFactory: NoSplash.splashFactory,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
+        appBarTheme: const AppBarTheme(
+          iconTheme: IconThemeData(color: Colors.white),
+        ),
       ),
       translations: Messages(),
       //使用系统语言
