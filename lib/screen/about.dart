@@ -14,7 +14,7 @@ class AboutPage extends StatelessWidget {
       appBar: AppBar(
           //返回按钮间距
           leadingWidth: width,
-          backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+          backgroundColor: const Color(0xff222222),
           title: Text("About".tr,
               style:
                   TextStyle(color: Theme.of(context).colorScheme.onPrimary))),

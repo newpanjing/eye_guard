@@ -8,8 +8,8 @@
 # 发布 1.1.0测试版 「自动上传到 pgyer」
 # ./deploy_app.sh -v 1.1.0 -f coolapk -e test
 
-export FASTLANE_ITUNES_TRANSPORTER_USE_SHELL_SCRIPT=1 
-export FASTLANE_ITUNES_TRANSPORTER_PATH=/Applications/Transporter.app/Contents/itms 
+export FASTLANE_ITUNES_TRANSPORTER_USE_SHELL_SCRIPT=1
+export FASTLANE_ITUNES_TRANSPORTER_PATH=/Applications/Transporter.app/Contents/itms
 export APP_STORE_CONNECT_API_KEY_PATH=~/.appstoreconnect/private_keys/AuthKey_KJY6D58SF3.p8
 
 API_KEY=KJY6D58SF3
@@ -40,6 +40,6 @@ if [ "$plat"x = "macOS"x ] || [ "$plat"x = "all"x ]; then
   # 打包iOS
   flutter clean
   flutter build macos --build-name=$version --build-number=$time --no-tree-shake-icons
-  productbuild --component ./build/macos/Build/Products/Release/Eye\ Sport\ Guard.app /Applications ./build/macos/Build/Products/Release/${APP_FILE}
+  productbuild --component ./build/macos/Build/Products/Release/Eye\ Sport\ Guard.app /Applications ./build/macos/Build/Products/Release/${APP_FILE} --sign "3rd Party Mac Developer Installer: jing pan (3AVKA6L8FE)"
   xcrun altool --upload-app --type macOS -f ./build/macos/Build/Products/Release/${APP_FILE} --apiKey $API_KEY --apiIssuer $API_USER_ID --verbose
 fi

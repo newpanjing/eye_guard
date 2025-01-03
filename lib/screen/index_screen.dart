@@ -1,4 +1,5 @@
 import 'package:eye_guard/extension/context.dart';
+import 'package:eye_guard/screen/about.dart';
 import 'package:eye_guard/screen/settings_page.dart';
 import 'package:eye_guard/screen/stop_screen.dart';
 import 'package:eye_guard/widgets/circle.dart';
@@ -77,6 +78,17 @@ class _IndexScreenState extends State<IndexScreen> {
             },
             title: "Take a break".tr,
             desc: "Stop and look into the distance".tr,
+          ),
+          _buildCard(
+            icon: const Icon(
+              CupertinoIcons.info_circle,
+              size: 30,
+            ),
+            onTap: () {
+              context.to(const AboutPage());
+            },
+            title: "Information source".tr,
+            desc: "The information is for informational purposes only and does not represent medical advice".tr,
           )
         ],
       ),

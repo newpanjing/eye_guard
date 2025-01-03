@@ -7,20 +7,20 @@ class Messages extends Translations {
           "title": "Eye Sport Guard",
           "Start": "Start",
           "Stop": "Stop",
-          "about_desc":"""
-Eye Guard is an APP for eye protection.
+          "about_desc":"""Eye Care is an eye care app.
+The idea is to use small white circles to move, allowing the eye to follow.
+This can effectively move the eyeballs, so that the blood flow around the eye is more adequate, thus reducing eye fatigue.
+The principle comes from an eye hospital in China.
+Source of information: 
 
-The idea is to use small white circles to move, so that the eye can follow.
-
-This can effectively move the eyeball, so that the blood flow around the eye is more full, so as to relieve eye fatigue.
-
-The principle is shared by an eye hospital in China.
+https://www.xiaohongshu.com/explore/67651ae6000000000b01661e?xsec_token=ABD370G26pdhW9GDVmdRQQP1EmFvVvLCzZhk-bdaUqe5U=&x sec_source=pc_search&source=web_search_result_notes
 
 Note: Software cannot fundamentally solve your eye problem, if you have eye discomfort, please seek medical attention as soon as possible.
-
 Email: newpanjing@icloud.com""",
         },
         "zh_CN": {
+          "Information source":"信息来源",
+          "The information is for informational purposes only and does not represent medical advice":"信息来源仅供参考，不代表医疗建议",
           "Give us a grade":"给我个评分",
           "Support us":"支持我们",
           "More Apps":"更多APP",
@@ -44,7 +44,11 @@ Email: newpanjing@icloud.com""",
           "about_desc":"""护眼宝是一款护眼应用程序。
 其理念是利用小白圈移动，让眼睛能够跟随。
 这能够有效地转动眼球，使眼部周围的血液流动更充足，从而缓解眼睛疲劳。
-其原理由中国一家眼科医院提供。
+其原理由来自中国一家眼科医院提供。
+信息来源：
+
+https://www.xiaohongshu.com/explore/67651ae6000000000b01661e?xsec_token=ABD370G26pdhW9GDVmdRQQP1EmFvVvLCzZhk-bdaUqe5U=&xsec_source=pc_search&source=web_search_result_notes
+
 注意：软件无法从根本上解决你的眼部问题，如果你眼部不适，请尽快就医。
 邮箱：newpanjing@icloud.com"""
         },
